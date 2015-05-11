@@ -154,7 +154,7 @@ object HttpData {
    * non-empty and the given `length` parameter is non-zero. Otherwise the method returns
    * [[spray.http.HttpData.Empty]].
    * A negative `length` value signifies that the respective number of bytes at the end of the
-   * file is to be ommitted, i.e., a value of -10 will select all bytes starting at `offset`
+   * file is to be omitted, i.e., a value of -10 will select all bytes starting at `offset`
    * except for the last 10.
    * If `length` is greater or equal to "file length - offset" all bytes in the file starting at
    * `offset` are selected.
@@ -176,7 +176,7 @@ object HttpData {
    * non-empty and the given `length` parameter is non-zero. Otherwise the method returns
    * [[spray.http.HttpData.Empty]].
    * A negative `length` value signifies that the respective number of bytes at the end of the
-   * file is to be ommitted, i.e., a value of -10 will select all bytes starting at `offset`
+   * file is to be omitted, i.e., a value of -10 will select all bytes starting at `offset`
    * except for the last 10.
    * If `length` is greater or equal to "file length - offset" all bytes in the file starting at
    * `offset` are selected.
